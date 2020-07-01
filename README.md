@@ -14,7 +14,7 @@
 
 This application is to enable the user to add/delete notes and commence a countdown timer to help time-box the outcome.
 
-From a developer's point of view, it was to further explore and understand how to implement a React app with the use of hooks (i.e. setState / useEffect) with a interval countdown timer.
+From a developer's point of view, it was to further explore and understand how to implement a React app with the use of hooks (i.e. setState / useEffect) with an interval countdown timer.
 
 ## Task Time Boxer Link
 
@@ -35,7 +35,8 @@ The following were the key requirements in meeting the MVP/POC.
 Future functionality can incorporate the following:
 
 -   Either implement session persistence to allow saving or implement a database feature.
--   augment the application to mimick a Kanban board and allow the user drag/drop each note from headings such as: "Backlog" / "In-progress" and "Done".
+-   Augment the application to mimick a Kanban board and allow the user drag/drop each note to headings such as: "Backlog", "In-progress" and "Done".
+-   A user can define a custom countdown timer duration.
 
 ## Screenshots
 
@@ -50,7 +51,7 @@ Future functionality can incorporate the following:
 
 ## Challenges
 
--   Utilising the use of setInterval and clearInterval. i.e. understanding the in how React implements hooks with setState and UseEffect.
+-   Utilising the use of setInterval and clearInterval. i.e. understanding how React implements hooks with setState() and UseEffect().
 
 ## Technologies Used
 
