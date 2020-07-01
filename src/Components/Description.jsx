@@ -3,8 +3,10 @@ import React from "react";
 function Description() {
     return (
         <div className="description">
-            Stop procrastinating..simply add some tasks and a countdown timer to
-            keep driving outcomes.{" "}
+            <h1>
+                A simple app to add multiple tasks and a countdown timer to
+                timebox & drive outcomes.
+            </h1>
         </div>
     );
 }

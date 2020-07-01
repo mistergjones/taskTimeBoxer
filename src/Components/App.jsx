@@ -4,6 +4,8 @@ import Footer from "./Footer";
 import Note from "./Note";
 import Description from "./Description";
 import CreateArea from "./CreateArea";
+// import Timer from "./Timer";
+// import Interval from "./Interval";
 
 function App() {
     // an array of notes constant to track state
@@ -32,6 +34,8 @@ function App() {
         <div>
             <Header />
             <Description />
+            {/* <Timer /> */}
+            {/* <Interval /> */}
 
             <CreateArea onAdd={addNote} />
             {notes.map((noteItem, index) => {

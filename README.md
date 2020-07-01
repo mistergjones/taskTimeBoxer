@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+-   [General info](#general-info)
+-   [Link](#task-time-boxer-link)
+-   [MVP](#MVP)
+-   [Future functionality](#future-functionality)
+-   [Screenshots](#screenshots)
+-   [In-depth Features of Task Time Boxer](#in-depth-features-of-task-time-boxer)
+-   [Challenges](#challenges)
+-   [Technologies Used](#technologies-used)
+-   [Download](#download)
 
-In the project directory, you can run:
+## General info
 
-### `yarn start`
+This application is to enable the user to add/delete notes and commence a countdown timer to help time-box the outcome.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+From a developer's point of view, it was to further explore and understand how to implement a React app with the use of hooks (i.e. setState / useEffect) with a interval countdown timer.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Task Time Boxer Link
 
-### `yarn test`
+-   The link to the Task Time-boxer link is:
+    [https://mistergjones.github.io/taskTimeBoxer/]
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## MVP
 
-### `yarn build`
+The following were the key requirements in meeting the MVP/POC.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   a user can add a number of notes / tasks they would like to keep track of.
+-   a user can delete a note at any time.
+-   a user can commence 60 minute countdown timer on the task of interest.
+-   a user can PAUSE and RESET the countdown timer if need be.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Future Functionality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Future functionality can incorporate the following:
 
-### `yarn eject`
+-   Either implement session persistence to allow saving or implement a database feature.
+-   augment the application to mimick a Kanban board and allow the user drag/drop each note from headings such as: "Backlog" / "In-progress" and "Done".
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Screenshots
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Example screenshot](screenshot.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## In-depth Features of Task Time Boxer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-   the use of hooks (setState / useEffect).
+-   setInterval and clearInterval functionality.
+-   in-line styling of buttons.
+-   incorporating the use of MaterialUI.
 
-## Learn More
+## Challenges
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   Utilising the use of setInterval and clearInterval. i.e. understanding the in how React implements hooks with setState and UseEffect.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
+Project is created with:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+-   React JS.
+-   MaterialUI (React's UI framework).
+-   CSS.
+-   HTML.
+-   Git/Github (for version control).
 
-### Analyzing the Bundle Size
+## Download
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Download via:
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+-   https://github.com/mistergjones/taskTimeBoxer.git

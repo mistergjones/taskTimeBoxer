@@ -1,5 +1,6 @@
 import React from "react";
 import DeleteIcon from "@material-ui/icons/Delete";
+import Interval from "./Interval";
 
 function Note(props) {
     function handleClick() {
@@ -11,7 +12,13 @@ function Note(props) {
         <div className="note">
             <h1>{props.title}</h1>
             <p>{props.content}</p>
-            <button onClick={handleClick}>
+
+            <Interval />
+
+            <button
+                style={{ color: "red", backgroundColor: "white" }}
+                onClick={handleClick}
+            >
                 <DeleteIcon />
             </button>
         </div>
